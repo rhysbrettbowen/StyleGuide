@@ -150,7 +150,7 @@ else
 {a: 1};
 ```
 
-- object literals with more than 10 keys that wary in length by more than 4 characters should have the values aligned the the next tab stop after the longest key
+- object literals with more than 10 keys that vary in length by more than 4 characters should have the values aligned the the next tab stop after the longest key
 
 ```
 // GOOD
@@ -249,7 +249,7 @@ if (test) {
 }
 console.log(a);
 
-// BAD
+// GOOD
 var a;
 if (test) {
 	a = 10;
@@ -497,7 +497,7 @@ put this file in your root workspace so jshint can lint your work:
 	"eqeqeq": false,
 	"forin": false,
 	"immed": true,
-	"indent": 2,
+	"indent": 4,
 	"latedef": true,
 	"newcap": true,
 	"noarg": true,
@@ -543,6 +543,7 @@ put this file in your root workspace so jshint can lint your work:
 		"require": true,
 		"define": true,
 		"Backbone": true,
+		"_": true
 	},
 	"browser": true
 }
