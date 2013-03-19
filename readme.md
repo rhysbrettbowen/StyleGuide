@@ -75,18 +75,18 @@ always.
 - braces are optional but encourage for single statements
 
 ```
-\\ BAD
+// BAD
 if (statement)
 {
 	doStuff();
 }
 
-\\ GOOD
+// GOOD
 if (statement) {
 	doSftuff();
 }
 
-\\ OKAY
+// OKAY
 if (statement)
 	doStuff();
 ```
@@ -95,7 +95,7 @@ if (statement)
 - if either the if or else statements are more than one line, BOTH must use curly braces
 
 ```
-\\ BAD
+// BAD
 if (statement) {
 	doStuff();
 }
@@ -116,7 +116,7 @@ if (statement) {
 	otherStuff();
 
 
-\\ GOOD
+// GOOD
 if (statement) {
 	doStuff();
 } else {
@@ -130,7 +130,7 @@ if (statement) {
 	otherStuff();
 }
 
-\\ OKAY
+// OKAY
 if (statement)
 	doStuff();
 else
@@ -405,17 +405,17 @@ var obj = {
 - set each value on the prototype individually or use `_.extend`
 
 ```
-\\ BAD
+// BAD
 function A() {};
 A.prototype = {
 	a: 1
 };
 
-\\ GOOD
+// GOOD
 function A() {};
 A.prototype.a = 1;
 
-\\ GOOD
+// GOOD
 function A() {};
 _.extend(A.prototype, {
 	a: 1
