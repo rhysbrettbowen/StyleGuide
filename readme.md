@@ -518,7 +518,7 @@ put this file in your root workspace so jshint can lint your work:
 	"boss": true,
 	"debug": false,
 	"eqnull": true,
-	"es5": false,
+	"es5": true,
 	"esnext": false,
 	"evil": false,
 	"expr": false,
