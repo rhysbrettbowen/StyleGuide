@@ -521,7 +521,7 @@ put this file in your root workspace so jshint can lint your work:
 	"es5": true,
 	"esnext": false,
 	"evil": false,
-	"expr": false,
+	"expr": true,
 	"funcscope": false,
 	"globalstrict": true,
 	"iterator": false,
